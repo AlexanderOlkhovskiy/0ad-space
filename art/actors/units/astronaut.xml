@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>skeletal/astronaut.dae</mesh>
+      <props>
+        <prop actor="props/units/astronaut_faceplate.xml" attachpoint="faceplate"/>
+      </props>
+      <textures><texture file="skeletal/astronaut.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+</actor>

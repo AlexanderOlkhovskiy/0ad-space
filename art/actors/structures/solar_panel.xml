@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>structural/solar_panel.dae</mesh>
+      <textures>
+        <texture file="structural/solar_panel.png" name="baseTex"/>
+        <texture file="structural/solar_panel_norm.png" name="normTex"/>
+        <texture file="structural/solar_panel_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+
+</actor>
