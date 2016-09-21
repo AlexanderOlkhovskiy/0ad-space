@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/space_habitat
+      structures/space_solar_panel
+      structures/space_dish
+    </Entities>
+    <Rate>1.0</Rate>
+  </Builder>
+  <Cost>
+    <Population>0</Population>
+  </Cost>
+  <Identity>
+    <Civ>space</Civ>
+    <Icon>units/astronaut.png</Icon>
+    <GenericName>Astronaut</GenericName>
+  </Identity>
+  <Promotion disable=""/>
+  <TrainingRestrictions>
+    <Category>Astronaut</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>units/astronaut.xml</Actor>
+  </VisualActor>
+</Entity>
+

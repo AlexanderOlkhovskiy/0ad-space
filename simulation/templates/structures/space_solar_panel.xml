@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure">
+  <BuildRestrictions>
+    <Category>Special</Category>
+  </BuildRestrictions>
+  <Identity>
+    <Civ>space</Civ>
+    <Icon>structures/solar_panel.png</Icon>
+    <GenericName>Solar Panel</GenericName>
+  </Identity>
+  <Footprint>
+    <Square width="10.0" depth="10.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>800</Max>
+  </Health>
+  <Obstruction>
+    <Static width="8.0" depth="8.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/solar_panel.xml</Actor>
+  </VisualActor>
+</Entity>
+

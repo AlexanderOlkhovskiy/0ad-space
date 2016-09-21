@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_lander">
+  <BuildRestrictions>
+    <Category>CuriosityLander</Category>
+  </BuildRestrictions>
+  <Identity>
+    <Icon>structures/curiosity_lander.png</Icon>
+    <SpecificName>Curiosity Lander</SpecificName>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/space_curiosity
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/orion.xml</Actor>
+  </VisualActor>
+</Entity>
+

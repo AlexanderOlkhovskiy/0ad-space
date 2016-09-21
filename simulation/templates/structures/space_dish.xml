@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure">
+  <BuildRestrictions>
+    <Category>Special</Category>
+  </BuildRestrictions>
+  <Identity>
+    <Civ>space</Civ>
+    <Icon>structures/dish.png</Icon>
+    <GenericName>Satellite Dish</GenericName>
+  </Identity>
+  <Footprint>
+    <Square width="18.0" depth="18.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>800</Max>
+  </Health>
+  <Obstruction>
+    <Static width="14.0" depth="14.0"/>
+  </Obstruction>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>60</Radius>
+    <Weight>10000</Weight>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/dish.xml</Actor>
+  </VisualActor>
+</Entity>
+

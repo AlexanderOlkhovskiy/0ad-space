@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <EntityLimits>
+    <Limits>
+      <Astronaut>1</Astronaut>
+      <Opportunity>1</Opportunity>
+      <Curiosity>1</Curiosity>
+      <Orion>1</Orion>
+      <CuriosityLander>1</CuriosityLander>
+    </Limits>
+    <LimitChangers>
+      <WarDog>
+        <Kennel>10</Kennel>
+      </WarDog>
+    </LimitChangers>
+    <LimitRemovers>
+      <CivilCentre>
+        <RequiredTechs datatype="tokens">phase_town</RequiredTechs>
+      </CivilCentre>
+    </LimitRemovers>
+  </EntityLimits>
+  <Identity>
+    <Civ></Civ>
+    <GenericName>Player</GenericName>
+    <Classes datatype="tokens">Player</Classes>
+  </Identity>
+  <Player>
+    <SharedLosTech>unlock_shared_los</SharedLosTech>
+    <SharedDropsitesTech>unlock_shared_dropsites</SharedDropsitesTech>
+  </Player>
+  <StatisticsTracker/>
+  <TechnologyManager/>
+</Entity>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure">
+  <BuildRestrictions>
+    <Distance>
+      <FromClass>Lander</FromClass>
+      <MinDistance>150</MinDistance>
+    </Distance>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Identity>
+    <Civ>space</Civ>
+    <Classes datatype="tokens">Lander</Classes>
+    <GenericName>Lander</GenericName>
+  </Identity>
+  <Footprint>
+    <Square width="18.0" depth="18.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>800</Max>
+  </Health>
+  <Obstruction>
+    <Static width="14.0" depth="14.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>1.0</BatchTimeModifier>
+  </ProductionQueue>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>30</Radius>
+    <Weight>10000</Weight>
+  </TerritoryInfluence>
+</Entity>
+

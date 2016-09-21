@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Builder disable=""/>
+  <Cost>
+    <Population>0</Population>
+  </Cost>
+  <Identity>
+    <Civ>space</Civ>
+    <Icon>units/curiosity.png</Icon>
+    <GenericName>Rover</GenericName>
+    <SpecificName>Curiosity</SpecificName>
+  </Identity>
+  <Promotion disable=""/>
+  <TrainingRestrictions>
+    <Category>Curiosity</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>units/curiosity.xml</Actor>
+  </VisualActor>
+</Entity>
+
