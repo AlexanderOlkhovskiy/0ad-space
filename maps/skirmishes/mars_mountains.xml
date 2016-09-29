@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="6">
+	<Environment>
+		<SkySet>sunset</SkySet>
+		<SunColor r="1" g="0.87451" b="0.611765"/>
+		<SunElevation angle="0.524621"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0.00046875</FogFactor>
+			<FogThickness>0.14</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.8"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>19.9</Height>
+				<Waviness>8</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>0.95</Contrast>
+			<Saturation>0.796875</Saturation>
+			<Bloom>0.18</Bloom>
+			<PostEffect>hdr</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="436.894" y="186.827" z="78.9944"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "CircularMap": true,
+  "Description": "A map filled with impassable mountains and a great number of natural resources.",
+  "GameType": "conquest",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Mars Mountains (1)",
+  "PlayerData": [
+    null,
+    {}
+  ],
+  "Preview": "mars_mountains.png",
+  "RevealMap": false
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="4">
+			<Template>units/space_rover</Template>
+			<Player>1</Player>
+			<Position x="440.03296" z="301.53309"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15028"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>
