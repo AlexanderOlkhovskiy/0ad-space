@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource">
+  <BuildRestrictions>
+    <Category>Energy</Category>
+  </BuildRestrictions>
+  <Identity>
+    <VisibleClasses datatype="tokens">Energy</VisibleClasses>
+  </Identity>
+  <Minimap>
+    <Color r="119" g="82" b="46"/>
+  </Minimap>
+  <ProductionQueue disable=""/>
+  <RallyPoint disable=""/>
+  <StatusBars>
+    <HeightOffset>8.0</HeightOffset>
+  </StatusBars>
+  <TerritoryDecay>
+    <DecayRate>Infinity</DecayRate>
+  </TerritoryDecay>
+  <Vision>
+    <Range>0</Range>
+  </Vision>
+</Entity>

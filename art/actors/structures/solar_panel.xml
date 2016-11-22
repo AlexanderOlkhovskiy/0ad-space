@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <actor version="1">
-
   <castshadow/>
-
   <group>
     <variant frequency="100" name="Base">
       <mesh>structural/solar_panel.dae</mesh>
@@ -13,5 +11,5 @@
       </textures>
     </variant>
   </group>
-
+  <material>player_trans_parallax_spec.xml</material>
 </actor>
