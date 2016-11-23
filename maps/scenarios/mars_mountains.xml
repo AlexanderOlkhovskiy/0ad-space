@@ -41,13 +41,21 @@
 {
   "CircularMap": true,
   "Description": "A map filled with impassable mountains and a great number of natural resources.",
-  "GameType": "conquest",
+  "GameType": "endless",
   "Keywords": [],
   "LockTeams": false,
   "Name": "Mars Mountains (1)",
   "PlayerData": [
     null,
-    {}
+    {
+      "Civ": "space",
+      "Color": {
+        "b": 200,
+        "g": 46,
+        "r": 46
+      },
+      "Name": "Player 1"
+    }
   ],
   "Preview": "mars_mountains.png",
   "RevealMap": false

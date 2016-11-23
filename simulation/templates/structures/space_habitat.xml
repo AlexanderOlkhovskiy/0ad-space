@@ -15,6 +15,7 @@
   <Health>
     <Max>800</Max>
   </Health>
+  <ProductionQueue disable=""/>
   <Obstruction>
     <Static width="14.0" depth="14.0"/>
   </Obstruction>

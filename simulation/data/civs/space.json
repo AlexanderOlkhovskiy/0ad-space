@@ -1,0 +1,33 @@
+{
+	"Code":"space",
+	"Culture":"space",
+	"Name":"Space",
+	"Emblem":"session/portraits/emblems/emblem_space.png",
+	"History":"Internation Space Alliance (ISA) was founded in 2016.",
+	"Music":
+	[
+	],
+	"Factions":
+	[
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+	],
+	"StartEntities":
+	[
+	],
+	"Formations":
+	[
+	],
+	"AINames":
+	[
+		"Elon Musk"
+	],
+	"SelectableInGameSetup": true
+}
