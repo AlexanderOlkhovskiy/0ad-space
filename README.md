@@ -4,6 +4,14 @@ Adds space-related models and a showcase scene (visuals only, not playable).
 
 <img src="http://i.imgur.com/u6e4EAn.jpg" alt="Mars Base" width="640">
 
+#### Installation
+1. Copy a directory with the mod to:
+  * Linux: `~/.local/share/0ad/mods`
+  * OS X: `~/Library/Application\ Support/0ad/mods`
+  * Windows: `Documents\My Games\0ad\mods` or `My Documents\My Games\0ad\mods`
+2. Launch the 0 A.D. and go to `Tools & Options > Mod selection`.
+3. Select the mod and press `Enable`, `Save Configuration` and `Start Mods`.
+
 #### Model and texture sources/credits:
 * http://nasa3d.arc.nasa.gov/detail/nmss-hdu  Habitat Demonstration Unit.  Author/Origin: NASA LaRC Advanced Concepts Lab, AMA Studios
 * http://nasa3d.arc.nasa.gov/detail/70-meter-dish  70-meter Dish.  Author/Origin: NASA Ames Research Center
@@ -12,4 +20,3 @@ Adds space-related models and a showcase scene (visuals only, not playable).
 * http://nasa3d.arc.nasa.gov/detail/orion-capsule  Orion Capsule.   Author/Origin: Manuel de León
 * http://opengameart.org/content/mars-rover  Mars Rover.  Author: JamesWhite
 * http://opengameart.org/content/tilling-textures-pack-32  Tilling textures pack 32.   Author: yughues
-
