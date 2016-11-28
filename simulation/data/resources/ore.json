@@ -1,0 +1,9 @@
+{
+	"code": "ore",
+	"name": "Ore",
+	"order": 3,
+	"subtypes": {
+		"rock": "Rock"
+	},
+	"truePrice": 100
+}

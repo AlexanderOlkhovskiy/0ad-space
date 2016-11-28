@@ -18,6 +18,15 @@
   <Obstruction>
     <Static width="15.0" depth="9.0"/>
   </Obstruction>
+  <ResourceTrickle>
+    <Rates>
+      <food>0.0</food>
+      <energy>6.0</energy>
+      <ore>0.0</ore>
+      <funding>0.0</funding>
+    </Rates>
+    <Interval>500</Interval>
+  </ResourceTrickle>
   <VisualActor>
     <Actor>structures/solar_panel.xml</Actor>
   </VisualActor>

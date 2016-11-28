@@ -1,0 +1,9 @@
+{
+	"code": "energy",
+	"name": "Energy",
+	"order": 2,
+	"subtypes": {
+		"light": "Light"
+	},
+	"truePrice": 100
+}

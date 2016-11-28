@@ -1,0 +1,9 @@
+{
+	"code": "funding",
+	"name": "Funding",
+	"order": 4,
+	"subtypes": {
+		"grant": "Grant"
+	},
+	"truePrice": 100
+}
