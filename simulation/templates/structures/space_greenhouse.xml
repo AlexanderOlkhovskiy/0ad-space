@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_food">
+  <Cost>
+    <BuildTime>10</BuildTime>
+  </Cost>
+  <Identity>
+    <Civ>space</Civ>
+    <Icon>structures/greenhouse.png</Icon>
+    <GenericName>Greenhouse</GenericName>
+  </Identity>
+  <Footprint>
+    <Square width="18.0" depth="18.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>800</Max>
+  </Health>
+  <Obstruction>
+    <Static width="16.0" depth="16.0"/>
+  </Obstruction>
+  <ResourceTrickle>
+    <Rates>
+      <food>5.0</food>
+      <energy>0.0</energy>
+      <ore>0.0</ore>
+      <funding>0.0</funding>
+    </Rates>
+    <Interval>2000</Interval>
+  </ResourceTrickle>
+  <VisualActor>
+    <Actor>structures/greenhouse.xml</Actor>
+  </VisualActor>
+</Entity>
+

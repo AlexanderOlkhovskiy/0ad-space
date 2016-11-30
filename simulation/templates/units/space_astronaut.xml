@@ -2,6 +2,7 @@
 <Entity parent="template_unit">
   <Builder>
     <Entities datatype="tokens">
+      structures/space_greenhouse
       structures/space_habitat
       structures/space_solar_panel
       structures/space_dish
