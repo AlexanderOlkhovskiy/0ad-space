@@ -18,5 +18,7 @@ Adds space-related models and a showcase scene (visuals only, not playable).
 * http://nasa3d.arc.nasa.gov/detail/astronaut  Astronaut.  Author/Origin: DigitalSpace Corporation
 * http://nasa3d.arc.nasa.gov/detail/mero-3766  MER Opportunity.   Author/Origin: NASA Ames Research Center
 * http://nasa3d.arc.nasa.gov/detail/orion-capsule  Orion Capsule.   Author/Origin: Manuel de León
+* https://nasa3d.arc.nasa.gov/detail/as11-40-5878  Bootprint - Apollo  Author: NASA Johnson Space Center
 * http://opengameart.org/content/mars-rover  Mars Rover.  Author: JamesWhite
 * http://opengameart.org/content/tilling-textures-pack-32  Tilling textures pack 32.   Author: yughues
+* http://opengameart.org/content/the-sun  The sun texture.  Author: NASA (Submitted by LFA)

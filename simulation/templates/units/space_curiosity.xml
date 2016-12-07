@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
-  <Builder disable=""/>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/space_orion
+    </Entities>
+    <Rate>1.0</Rate>
+  </Builder>
   <Cost>
     <Population>0</Population>
   </Cost>
