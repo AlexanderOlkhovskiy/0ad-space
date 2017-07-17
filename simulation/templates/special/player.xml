@@ -27,6 +27,21 @@
   <Player>
     <SharedLosTech>unlock_shared_los</SharedLosTech>
     <SharedDropsitesTech>unlock_shared_dropsites</SharedDropsitesTech>
+    <SpyCostMultiplier>1.0</SpyCostMultiplier>
+    <BarterMultiplier>
+      <Buy>
+        <energy>1.0</energy>
+        <food>1.0</food>
+        <funding>1.0</funding>
+        <ore>1.0</ore>
+      </Buy>
+      <Sell>
+        <energy>1.0</energy>
+        <food>1.0</food>
+        <funding>1.0</funding>
+        <ore>1.0</ore>
+      </Sell>
+    </BarterMultiplier>
   </Player>
   <StatisticsTracker/>
   <TechnologyManager/>
