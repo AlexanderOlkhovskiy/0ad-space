@@ -24,6 +24,15 @@
     <GenericName>Player</GenericName>
     <Classes datatype="tokens">Player</Classes>
   </Identity>
+  <MapExplorationTracker>
+    <AwardMapExplorationInterval>10000</AwardMapExplorationInterval>
+    <MapExplorationAward>
+      <energy>0</energy>
+      <food>0</food>
+      <funding>100</funding>
+      <ore>0</ore>
+    </MapExplorationAward>
+  </MapExplorationTracker>
   <Player>
     <SharedLosTech>unlock_shared_los</SharedLosTech>
     <SharedDropsitesTech>unlock_shared_dropsites</SharedDropsitesTech>
