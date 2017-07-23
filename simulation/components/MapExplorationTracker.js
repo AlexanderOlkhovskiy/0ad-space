@@ -28,19 +28,19 @@ MapExplorationTracker.prototype.AwardMapExploration = function()
 {
 	let newPercentMapExplored = this.GetPercentMapExplored();
 	let percentMapExploredDiff = newPercentMapExplored - this.percentMapExplored;
-	if (percentMapExploredDiff > 0)
-	{
-		let award = {};
-		for (let type of Resources.GetCodes())
-			award[type] = +this.mapExplorationAward[type] * percentMapExploredDiff;
+	if (percentMapExploredDiff == 0)
+		return;
 
-		let cmpPlayer = Engine.QueryInterface(this.entity, IID_Player);
-		cmpPlayer.AddResources(award);
+	let award = {};
+	for (let type of Resources.GetCodes())
+		award[type] = +this.mapExplorationAward[type] * percentMapExploredDiff;
 
-		this.NotifyPlayer(award);
+	let cmpPlayer = Engine.QueryInterface(this.entity, IID_Player);
+	cmpPlayer.AddResources(award);
 
-		this.percentMapExplored = newPercentMapExplored;
-	}
+	this.NotifyPlayer(award);
+
+	this.percentMapExplored = newPercentMapExplored;
 };
 
 MapExplorationTracker.prototype.NotifyPlayer = function(award)
