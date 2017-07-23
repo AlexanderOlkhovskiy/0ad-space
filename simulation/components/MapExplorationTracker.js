@@ -46,15 +46,12 @@ MapExplorationTracker.prototype.AwardMapExploration = function()
 MapExplorationTracker.prototype.NotifyPlayer = function(award)
 {
 	let awardMessage = "Map exploration award: ";
-	let firstResource = true;
+	let awards = [];
 	for (let type of Resources.GetCodes())
 		if (award[type] > 0)
-		{
-			if (!firstResource)
-				awardMessage += ", ";
-			awardMessage += "" + award[type] + " " + type;
-			firstResource = false;
-		}
+			awards.push("" + award[type] + " " + type);
+	awardMessage += awards.join(", ");
+
 	let cmpGUIInterface = Engine.QueryInterface(SYSTEM_ENTITY, IID_GuiInterface);
 	let cmpPlayer = Engine.QueryInterface(this.entity, IID_Player);
 	cmpGUIInterface.PushNotification({
