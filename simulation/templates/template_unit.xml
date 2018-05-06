@@ -33,12 +33,12 @@
     <Max>100</Max>
     <RegenRate>0</RegenRate>
     <IdleRegenRate>0</IdleRegenRate>
-    <Undeletable>false</Undeletable>
     <Unhealable>false</Unhealable>
   </Health>
   <Identity>
     <GenericName>Unit</GenericName>
     <Classes datatype="tokens">Unit ConquestCritical</Classes>
+    <Undeletable>false</Undeletable>
   </Identity>
   <Looter/>
   <Minimap>
@@ -51,6 +51,7 @@
     <BlockPathfinding>false</BlockPathfinding>
     <BlockFoundation>false</BlockFoundation>
     <BlockConstruction>true</BlockConstruction>
+    <DeleteUponConstruction>false</DeleteUponConstruction>
     <DisableBlockMovement>false</DisableBlockMovement>
     <DisableBlockPathfinding>false</DisableBlockPathfinding>
   </Obstruction>
@@ -87,7 +88,6 @@
     <HeightOffset>5.0</HeightOffset>
   </StatusBars>
   <UnitAI>
-    <AlertReactiveLevel>2</AlertReactiveLevel>
     <DefaultStance>aggressive</DefaultStance>
     <FleeDistance>12.0</FleeDistance>
     <FormationController>false</FormationController>

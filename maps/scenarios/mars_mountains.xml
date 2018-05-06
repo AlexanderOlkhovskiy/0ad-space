@@ -58,7 +58,8 @@
     }
   ],
   "Preview": "mars_mountains.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": []
 }
 ]]></ScriptSettings>
 	<Entities>
