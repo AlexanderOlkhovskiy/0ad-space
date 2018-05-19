@@ -15,6 +15,9 @@
     <GenericName>Rover</GenericName>
     <SpecificName>Curiosity</SpecificName>
   </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
   <Promotion disable=""/>
   <TrainingRestrictions>
     <Category>Curiosity</Category>

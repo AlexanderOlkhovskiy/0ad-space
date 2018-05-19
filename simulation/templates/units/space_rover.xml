@@ -16,6 +16,9 @@
     <GenericName>Rover</GenericName>
     <SpecificName>Opportunity</SpecificName>
   </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
   <Promotion disable=""/>
   <TrainingRestrictions>
     <Category>Opportunity</Category>
