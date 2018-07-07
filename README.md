@@ -28,3 +28,5 @@ Code: GPL version 2 (or later)
 * http://opengameart.org/content/mars-rover  Mars Rover.  Author: JamesWhite
 * http://opengameart.org/content/tilling-textures-pack-32  Tilling textures pack 32.   Author: yughues
 * http://opengameart.org/content/the-sun  The sun texture.  Author: NASA (Submitted by LFA)
+* https://photojournal.jpl.nasa.gov/catalog/PIA19808  PIA19808: Looking Up at Mars Rover Curiosity in 'Buckskin' Selfie.  Image Credit: NASA/JPL-Caltech/MSSS
+* https://photojournal.jpl.nasa.gov/catalog/PIA19912  PIA19912: Mount Sharp Comes In Sharply.  Image Credit: NASA/JPL-Caltech/MSSS
