@@ -44,9 +44,6 @@ function init(initData, hotloadData)
 	Engine.GetGUIObjectByName("civInfoButton").tooltip = colorizeHotkey(
 		translate("%(hotkey)s: Learn about the many civilizations featured in 0 A.D."),
 		"civinfo");
-	Engine.GetGUIObjectByName("lobbyButton").tooltip = colorizeHotkey(
-		translate("%(hotkey)s: Launch the multiplayer lobby to join and host publicly visible games and chat with other players."),
-		"lobby");
 }
 
 function getHotloadData()
