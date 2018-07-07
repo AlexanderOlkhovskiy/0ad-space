@@ -12,6 +12,12 @@ Adds space-related models and a showcase scene (visuals only, not playable).
 2. Launch the 0 A.D. and go to `Tools & Options > Mod selection`.
 3. Select the mod and press `Enable`, `Save Configuration` and `Start Mods`.
 
+#### License
+Free Software.
+Simulation and gui scripts and data files are based on 0 A.D. counterparts (GPL 2+).
+Art: Creative Commons Attribution-Share Alike 3.0
+Code: GPL version 2 (or later)
+
 #### Model and texture sources/credits:
 * http://nasa3d.arc.nasa.gov/detail/nmss-hdu  Habitat Demonstration Unit.  Author/Origin: NASA LaRC Advanced Concepts Lab, AMA Studios
 * http://nasa3d.arc.nasa.gov/detail/70-meter-dish  70-meter Dish.  Author/Origin: NASA Ames Research Center
