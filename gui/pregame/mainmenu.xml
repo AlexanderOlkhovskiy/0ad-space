@@ -196,20 +196,6 @@
 					style="StoneButtonFancy"
 					size="0 32 100% 60"
 					tooltip_style="pgToolTip"
-					enabled="false"
-				>
-					<translatableAttribute id="caption">Campaigns</translatableAttribute>
-					<translatableAttribute id="tooltip">Relive history through historical military campaigns. \[NOT YET IMPLEMENTED]</translatableAttribute>
-					<action on="Press">
-						closeMenu();
-					</action>
-				</object>
-
-				<object
-					type="button"
-					style="StoneButtonFancy"
-					size="0 64 100% 92"
-					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">Load Game</translatableAttribute>
 					<translatableAttribute id="tooltip">Click here to load a saved game.</translatableAttribute>
@@ -222,7 +208,7 @@
 				<object
 					type="button"
 					style="StoneButtonFancy"
-					size="0 96 100% 124"
+					size="0 64 100% 92"
 					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">Replays</translatableAttribute>
@@ -370,7 +356,7 @@
 					<translatableAttribute id="tooltip">Challenge the computer player to a single player match.</translatableAttribute>
 					<action on="Press">
 						closeMenu();
-						openMenu("submenuSinglePlayer", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 4);
+						openMenu("submenuSinglePlayer", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 3);
 					</action>
 				</object>
 
