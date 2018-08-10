@@ -169,38 +169,6 @@
 					</action>
 				</object>
 
-				<!-- STRUCTREE BUTTON -->
-				<object
-					style="StoneButtonFancy"
-					type="button"
-					size="0 64 100% 92"
-					tooltip_style="pgToolTip"
-					name="structreeButton"
-					hotkey="structree"
-				>
-					<translatableAttribute id="caption">Structure Tree</translatableAttribute>
-					<action on="Press">
-						closeMenu();
-						Engine.PushGuiPage("page_structree.xml", {});
-					</action>
-				</object>
-
-				<!-- HISTORY BUTTON -->
-				<object
-					style="StoneButtonFancy"
-					type="button"
-					size="0 96 100% 124"
-					tooltip_style="pgToolTip"
-					name="civInfoButton"
-					hotkey="civinfo"
-				>
-					<translatableAttribute id="caption">History</translatableAttribute>
-					<action on="Press">
-						closeMenu();
-						Engine.PushGuiPage("page_civinfo.xml");
-					</action>
-				</object>
-
 			</object>
 
 			<!-- submenuSinglePlayer -->
@@ -387,7 +355,7 @@
 					<translatableAttribute id="tooltip">Learn how to play, start the tutorial, discover the technology trees, and the history behind the civilizations</translatableAttribute>
 					<action on="Press">
 						closeMenu();
-						openMenu("submenuLearn", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 4);
+						openMenu("submenuLearn", this.parent.size.top + this.size.top, this.size.bottom - this.size.top, 2);
 					</action>
 				</object>
 
