@@ -10,8 +10,20 @@ Trigger.prototype.tutorialGoals = [
 			markForTranslation("You start the mission with the Curiosity rover.\n"),
 			markForTranslation("Your first goal is to explore the area and find a suitable base location.\n"),
 			markForTranslation("Goal: explore the map to reach 500 units of funding (funding is granted for each percent of map discovery).\n")
-		]
-		// TODO: add "500 funding" condition
+		],
+		"IsDone": function()
+		{
+			let cmpPlayer = QueryPlayerIDInterface(this.playerID);
+			let fundingAmount = cmpPlayer.GetResourceCounts()["funding"];
+			return fundingAmount >= 500;
+		},
+		"OnMapExplored": function(msg)
+		{
+			if (msg.player != this.playerID)
+				return;
+			if (this.IsDone())
+				this.NextGoal();
+		}
 	},
 	// TODO: add more items here
 	{

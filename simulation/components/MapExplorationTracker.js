@@ -40,6 +40,10 @@ MapExplorationTracker.prototype.AwardMapExploration = function()
 
 	this.NotifyPlayer(award);
 
+	let cmpTrigger = Engine.QueryInterface(SYSTEM_ENTITY, IID_Trigger);
+	if (cmpTrigger && cmpPlayer)
+		cmpTrigger.CallEvent("MapExplored", { "player": cmpPlayer.GetPlayerID(), "prevPercentMapExplored": this.percentMapExplored, "newPercentMapExplored": newPercentMapExplored });
+
 	this.percentMapExplored = newPercentMapExplored;
 };
 
