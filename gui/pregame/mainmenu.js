@@ -207,9 +207,6 @@ function openMenu(newSubmenu, position, buttonHeight, numButtons)
 	let bottom = position + ((buttonHeight + MARGIN) * numButtons);
 	submenu.size = new GUISize(submenu.size.left, top, submenu.size.right, bottom);
 
-	// Blend in right border of main menu into the left border of the submenu
-	blendSubmenuIntoMain(top, bottom);
-
 	submenu.hidden = false;
 }
 
@@ -220,17 +217,6 @@ function closeMenu()
 	let submenu = Engine.GetGUIObjectByName("submenu");
 	submenu.hidden = true;
 	submenu.size = Engine.GetGUIObjectByName("mainMenu").size;
-
-	Engine.GetGUIObjectByName("MainMenuPanelRightBorderTop").size = "100%-2 0 100% 100%";
-}
-
-/**
- * Sizes right border on main menu panel to match the submenu.
- */
-function blendSubmenuIntoMain(topPosition, bottomPosition)
-{
-	Engine.GetGUIObjectByName("MainMenuPanelRightBorderTop").size = "100%-2 0 100% " + (topPosition + MARGIN);
-	Engine.GetGUIObjectByName("MainMenuPanelRightBorderBottom").size = "100%-2 " + (bottomPosition) + " 100% 100%";
 }
 
 function getBuildString()

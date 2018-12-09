@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<styles>
+
+	<style name="MainMenuPanel"
+		sprite="MainMenuPanel"
+		buffer_zone="10"
+		text_align="left"
+		text_valign="top"
+	/>
+
+	<style name="SubmenuPanel"
+		sprite="SubmenuPanel"
+		buffer_zone="10"
+		text_align="left"
+		text_valign="top"
+	/>
+
+	<style name="userReportPanel"
+		sprite="pgUserReportBox"
+	/>
+
+	<style name="userReportText"
+		ghost="true"
+		font="sans-14"
+		textcolor="white"
+	/>
+
+	<style name="SpaceButton"
+		sprite_over="SpaceButtonOver"
+		font="sans-bold-18"
+		textcolor="white"
+		textcolor_disabled="210 210 210 160"
+		text_align="left"
+		text_valign="center"
+		sound_pressed="audio/interface/ui/ui_button_click.ogg"
+	/>
+
+</styles>
