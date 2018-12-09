@@ -139,7 +139,7 @@
 				<!-- LEARN TO PLAY BUTTON -->
 				<object
 					type="button"
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					size="0 0 100% 28"
 					tooltip_style="pgToolTip"
 				>
@@ -158,7 +158,7 @@
 				<!-- START TUTORIAL BUTTON -->
 				<object
 					type="button"
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					size="0 32 100% 60"
 					tooltip_style="pgToolTip"
 				>
@@ -180,7 +180,7 @@
 			>
 				<object
 					type="button"
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					size="0 0 100% 28"
 					tooltip_style="pgToolTip"
 				>
@@ -193,7 +193,7 @@
 
 				<object
 					type="button"
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					size="0 32 100% 60"
 					tooltip_style="pgToolTip"
 				>
@@ -207,7 +207,7 @@
 
 				<object
 					type="button"
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					size="0 64 100% 92"
 					tooltip_style="pgToolTip"
 				>
@@ -234,7 +234,7 @@
 				hidden="true"
 			>
 				<object
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					type="button"
 					size="0 0 100% 28"
 					tooltip_style="pgToolTip"
@@ -248,7 +248,7 @@
 				</object>
 
 				<object
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					type="button"
 					size="0 32 100% 60"
 					tooltip_style="pgToolTip"
@@ -262,7 +262,7 @@
 				</object>
 
 				<object
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					type="button"
 					size="0 64 100% 92"
 					tooltip_style="pgToolTip"
@@ -274,7 +274,7 @@
 					</action>
 				</object>
 				<object
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					type="button"
 					size="0 96 100% 124"
 					tooltip_style="pgToolTip"
@@ -301,40 +301,27 @@
 		<object name="mainMenu"
 			type="image"
 			style="MainMenuPanel"
-			size="60 -2 300 100%+2"
+			size="64 0 566 100%"
 			z="50"
 		>
-			<!-- These are used to make the right side blend in with the submenu -->
-			<object name="MainMenuPanelRightBorderTop"
-				type="image"
-				sprite="MainMenuPanelRightBorder"
-				ghost="true"
-				size="100%-2 0 100% 100%"
-			/>
-			<object name="MainMenuPanelRightBorderBottom"
-				type="image"
-				sprite="MainMenuPanelRightBorder"
-				ghost="true"
-				size="100%-2 0 100% 100%"
-			/>
 
 			<object
 				type="image"
 				sprite="productLogo"
 				ghost="true"
-				size="50%-110 30 50%+110 130"
+				size="16 30 236 130"
 			/>
 
 			<object
 				type="image"
-				size="8 156 100%-8 356"
+				size="4 156 100% 356"
 				ghost="false"
 			>
 				<!-- LEARN BUTTON -->
 				<object
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					type="button"
-					size="4 4 100%-4 32"
+					size="0 0 100% 40"
 					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">Learn to Play</translatableAttribute>
@@ -347,9 +334,9 @@
 
 				<!-- SINGLEPLAYER BUTTON -->
 				<object
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					type="button"
-					size="4 36 100%-4 64"
+					size="0 40 100% 80"
 					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">Single Player</translatableAttribute>
@@ -362,9 +349,9 @@
 
 				<!-- OPTIONS BUTTON -->
 				<object
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					type="button"
-					size="4 68 100%-4 96"
+					size="0 80 100% 120"
 					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">Settings</translatableAttribute>
@@ -377,9 +364,9 @@
 
 				<!-- SCENARIO EDITOR BUTTON -->
 				<object
-					style="StoneButtonFancy"
+					style="SpaceButton"
 					type="button"
-					size="4 100 100%-4 128"
+					size="0 120 100% 160"
 					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">Scenario Editor</translatableAttribute>
@@ -392,8 +379,8 @@
 				<!-- EXIT BUTTON -->
 				<object
 					type="button"
-					style="StoneButtonFancy"
-					size="4 132 100%-4 160"
+					style="SpaceButton"
+					size="0 160 100% 200"
 					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">Exit</translatableAttribute>
@@ -402,106 +389,9 @@
 				</object>
 			</object>
 
-			<!-- PRE-RELEASE INFO -->
-			<object size="8 100%-420 100%-8 100%-94"
-				type="image"
-				style="TranslucentPanelThinBorder"
-			>
-				<!-- PRE-RELEASE WARNING -->
-				<object
-					font="sans-14"
-					type="text"
-					textcolor="white"
-					size="8 8 100%-8 100%-36"
-					ghost="true"
-				>
-					<!-- IMPORTANT: remember to update session/top_panel/label.xml in sync with this: -->
-					<attribute id="caption">
-						<keep>[font="sans-bold-16"]</keep>
-						<translate>Alpha XXIII: Ken Wood</translate>
-						<keep>[/font]\n\n</keep>
-						<translate>WARNING: This is an early development version of the game. Many features have not been added yet.</translate>
-					</attribute>
-				</object>
-
-				<!-- GET INVOLVED -->
-				<object type="button"
-					style="StoneButton"
-					tooltip_style="pgToolTip"
-					size="8 100%-180 50%-4 100%-152"
-				>
-					<translatableAttribute id="caption">Website</translatableAttribute>
-					<translatableAttribute id="tooltip">Click to open play0ad.com in your web browser.</translatableAttribute>
-					<action on="Press">
-						openURL("http://play0ad.com/");
-					</action>
-				</object>
-
-				<object type="button"
-					style="StoneButton"
-					tooltip_style="pgToolTip"
-					size="50%+4 100%-180 100%-8 100%-152"
-				>
-					<translatableAttribute id="caption">Chat</translatableAttribute>
-					<translatableAttribute id="tooltip">Click to open the 0 A.D. IRC chat in your browser. (#0ad on webchat.quakenet.org)</translatableAttribute>
-					<action on="Press">
-						openURL("http://webchat.quakenet.org/?channels=0ad");
-					</action>
-				</object>
-
-				<object type="button"
-					style="StoneButton"
-					tooltip_style="pgToolTip"
-					size="8 100%-144 100%-8 100%-116"
-				>
-					<translatableAttribute id="caption">Report a Bug</translatableAttribute>
-					<translatableAttribute id="tooltip">Click to visit 0 A.D. Trac to report a bug, crash, or error.</translatableAttribute>
-					<action on="Press">
-						openURL("http://trac.wildfiregames.com/wiki/ReportingErrors/");
-					</action>
-				</object>
-
-				<object type="button"
-					style="StoneButton"
-					tooltip_style="pgToolTip"
-					size="8 100%-108 100%-8 100%-80"
-				>
-					<translatableAttribute id="caption">Translate the Game</translatableAttribute>
-					<translatableAttribute id="tooltip">Click to open the 0 A.D. translate page in your browser.</translatableAttribute>
-					<action on="Press">
-						openURL("http://trac.wildfiregames.com/wiki/Localization");
-					</action>
-				</object>
-
-				<object type="button"
-					style="StoneButton"
-					tooltip_style="pgToolTip"
-					size="8 100%-72 100%-8 100%-44"
-				>
-					<translatableAttribute id="caption">Donate</translatableAttribute>
-					<translatableAttribute id="tooltip">Help with the project expenses by donating.</translatableAttribute>
-					<action on="Press">
-						openURL("https://play0ad.com/community/donate/");
-					</action>
-				</object>
-
-				<object type="button"
-					style="StoneButton"
-					tooltip_style="pgToolTip"
-					size="8 100%-36 100%-8 100%-8"
-				>
-					<translatableAttribute id="caption">Credits</translatableAttribute>
-					<translatableAttribute id="tooltip">Click to see the 0 A.D. credits.</translatableAttribute>
-					<action on="Press">
-						Engine.PushGuiPage("page_credits.xml");
-					</action>
-				</object>
-
-			</object>
-
 			<!-- LOGO AND BUILD VERSION -->
 			<object
-				size="4 100%-84 100%-4 100%-56"
+				size="0 100%-84 128 100%-56"
 				ghost="true"
 			>
 
@@ -528,7 +418,7 @@
 				type="text"
 				style="MediumTitleText"
 				ghost="true"
-				size="50%-128 100%-36 50%+128 100%"
+				size="0 100%-36 164 100%"
 			>
 				<action on="Load">
 					this.caption = getBuildString();
