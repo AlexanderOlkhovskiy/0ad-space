@@ -1,0 +1,2 @@
+orbitron-light-18.* files are generated using Orbitron font, distributed under SIL Open Font License v1.10, see "SIL Open Font License.txt"
+OTF file is acquired here: https://www.fontsquirrel.com/fonts/orbitron
