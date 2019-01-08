@@ -28,7 +28,8 @@
 
 	<style name="SpaceButton"
 		sprite_over="SpaceButtonOver"
-		font="sans-bold-18"
+		buffer_zone="16"
+		font="orbitron-light-18"
 		textcolor="white"
 		textcolor_disabled="210 210 210 160"
 		text_align="left"
