@@ -113,8 +113,6 @@ function onTick()
 
 	scrollBackgrounds();
 
-	updateMenuPosition(tickLength);
-
 	if (Engine.IsUserReportEnabled())
 		Engine.GetGUIObjectByName("userReportEnabledText").caption =
 			'[font="sans-bold-16"]' + translate("Thank you for helping improve 0 A.D.!") + "[/font]\n\n" +
@@ -171,52 +169,20 @@ function EnableUserReport(Enabled)
 }
 
 /**
- * Slide menu.
- */
-function updateMenuPosition(dt)
-{
-	let submenu = Engine.GetGUIObjectByName("submenu");
-
-	if (submenu.hidden == false)
-	{
-		// Number of pixels per millisecond to move
-		let SPEED = 1.2;
-
-		let maxOffset = Engine.GetGUIObjectByName("mainMenu").size.right - submenu.size.left;
-		if (maxOffset > 0)
-		{
-			let offset = Math.min(SPEED * dt, maxOffset);
-			let size = submenu.size;
-			size.left += offset;
-			size.right += offset;
-			submenu.size = size;
-		}
-	}
-}
-
-/**
  * Opens the menu by revealing the screen which contains the menu.
  */
-function openMenu(newSubmenu, position, buttonHeight, numButtons)
+function openSubMenu(newSubmenu)
 {
+	Engine.GetGUIObjectByName("mainMenu").hidden = true;
+
 	currentSubmenuType = newSubmenu;
 	Engine.GetGUIObjectByName(currentSubmenuType).hidden = false;
-
-	let submenu = Engine.GetGUIObjectByName("submenu");
-	let top = position - MARGIN;
-	let bottom = position + ((buttonHeight + MARGIN) * numButtons);
-	submenu.size = new GUISize(submenu.size.left, top, submenu.size.right, bottom);
-
-	submenu.hidden = false;
 }
 
-function closeMenu()
+function openMainMenu(newSubmenu)
 {
 	Engine.GetGUIObjectByName(currentSubmenuType).hidden = true;
-
-	let submenu = Engine.GetGUIObjectByName("submenu");
-	submenu.hidden = true;
-	submenu.size = Engine.GetGUIObjectByName("mainMenu").size;
+	Engine.GetGUIObjectByName("mainMenu").hidden = false;
 }
 
 function getBuildString()
@@ -229,8 +195,6 @@ function getBuildString()
 
 function exitGamePressed()
 {
-	closeMenu();
-
 	messageBox(
 		400, 200,
 		translate("Are you sure you want to quit 0 A.D.?"),
@@ -242,8 +206,6 @@ function exitGamePressed()
 
 function pressedScenarioEditorButton()
 {
-	closeMenu();
-
 	if (Engine.AtlasIsAvailable())
 		messageBox(
 			400, 200,
