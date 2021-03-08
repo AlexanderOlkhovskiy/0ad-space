@@ -15,7 +15,7 @@
 
 	<object size="0 100%-84 256 100%" ghost="true">
 		<object name="organizationLogo" type="image" ghost="true" size="50%-16 0 50%+16 32"/>
-		<object name="organizationName" type="text" style="MediumTitleText" ghost="true" size="50%-128 32 50%+128 48"/>
+		<object name="organizationName" type="text" style="MediumTitleText" ghost="true" size="50%-128 36 50%+128 52"/>
 	</object>
 
 	<object type="text" name="productBuild" style="MediumTitleText" ghost="true" size="0 100%-48 256 100%"/>

@@ -18,6 +18,10 @@ class MainMenuItemHandler
 
 		this.setupMenuButtons(this.mainMenuButtons.children, this.menuItems);
 		this.setupHotkeys(this.menuItems);
+
+		this.tooltip = Engine.GetGUIObjectByName("pgToolTip");
+
+		this.updateTooltipLayout(this.mainMenuButtons.children);
 	}
 
 	setupMenuButtons(buttons, menuItems)
@@ -104,9 +108,9 @@ class MainMenuItemHandler
 		};
 		this.setupMenuButtons(this.submenuButtons.children, [backButton].concat(this.menuItems[i].submenu));
 
-		let top = this.mainMenuButtons.size.top + this.mainMenuButtons.children[i].size.top;
-
 		this.submenu.hidden = false;
+
+		this.updateTooltipLayout(this.submenuButtons.children);
 	}
 
 	closeSubmenu()
@@ -115,6 +119,23 @@ class MainMenuItemHandler
 		this.submenu.size = this.mainMenu.size;
 
 		this.mainMenuButtons.hidden = false;
+
+		this.updateTooltipLayout(this.mainMenuButtons.children);
+	}
+
+	updateTooltipLayout(buttons)
+	{
+		let top = this.mainMenuButtons.size.top;
+		let size = this.tooltip.size;
+		buttons.forEach((button, i) => {
+			if (button.hidden)
+				return;
+			size.top = Math.max(size.top, top + button.size.bottom + this.ButtonHeight);
+		});
+		size.rtop = 0;
+		size.bottom = size.top + 200;
+		size.rbottom = 0;
+		this.tooltip.size = size;
 	}
 }
 

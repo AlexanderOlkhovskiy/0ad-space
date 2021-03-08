@@ -31,4 +31,12 @@
 		sound_pressed="audio/interface/ui/ui_button_click.ogg"
 	/>
 
+	<style name="SpaceTooltipPanel"
+		buffer_zone="0"
+		font="sans-stroke-16"
+		textcolor="191 201 206"
+		text_align="left"
+		text_valign="top"
+	/>
+
 </styles>
