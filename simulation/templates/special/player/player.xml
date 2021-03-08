@@ -53,7 +53,29 @@
       </Sell>
     </BarterMultiplier>
   </Player>
-  <StatisticsTracker/>
+  <StatisticsTracker>
+    <UnitClasses datatype="tokens">
+      Cavalry
+      Champion
+      Domestic
+      FemaleCitizen
+      Hero
+      Infantry
+      Ship
+      Siege
+      Trader
+      Worker
+    </UnitClasses>
+    <StructureClasses datatype="tokens">
+      Economic
+      CivCentre
+      Fortress
+      House
+      Military
+      Outpost
+      Wonder
+    </StructureClasses>
+  </StatisticsTracker>
   <TechnologyManager/>
 </Entity>
 

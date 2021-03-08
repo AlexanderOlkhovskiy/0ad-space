@@ -47,13 +47,15 @@
   "PlayerData": [
     null,
     {
+      "AI": "",
       "Civ": "space",
       "Color": {
         "b": 200,
         "g": 46,
         "r": 46
       },
-      "Name": "Player 1"
+      "Name": "Player 1",
+      "Team": -1
     }
   ],
   "Preview": "mars_mountains.png",
@@ -63,7 +65,7 @@
 ]]></ScriptSettings>
 	<Entities>
 		<Entity uid="4">
-			<Template>units/space_curiosity</Template>
+			<Template>units/space/curiosity</Template>
 			<Player>1</Player>
 			<Position x="440.03296" z="301.53309"/>
 			<Orientation y="2.35621"/>

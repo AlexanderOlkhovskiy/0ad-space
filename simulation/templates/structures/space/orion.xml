@@ -9,7 +9,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/space_astronaut
+      units/space/astronaut
     </Entities>
   </ProductionQueue>
   <VisualActor>

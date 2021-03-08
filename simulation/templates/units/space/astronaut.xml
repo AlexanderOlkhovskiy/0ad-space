@@ -2,15 +2,22 @@
 <Entity parent="template_unit">
   <Builder>
     <Entities datatype="tokens">
-      structures/space_greenhouse
-      structures/space_habitat
-      structures/space_solar_panel
-      structures/space_dish
+      structures/space/greenhouse
+      structures/space/habitat
+      structures/space/solar_panel
+      structures/space/dish
     </Entities>
     <Rate>1.0</Rate>
   </Builder>
   <Cost>
     <Population>0</Population>
+    <BuildTime>1</BuildTime>
+    <Resources>
+      <food>0</food>
+      <energy>0</energy>
+      <ore>0</ore>
+      <funding>0</funding>
+    </Resources>
   </Cost>
   <Identity>
     <Civ>space</Civ>

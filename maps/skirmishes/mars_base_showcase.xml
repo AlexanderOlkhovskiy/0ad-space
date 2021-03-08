@@ -20278,126 +20278,126 @@
 			<Actor seed="26926"/>
 		</Entity>
 		<Entity uid="7449">
-			<Template>structures/space_habitat</Template>
+			<Template>structures/space/habitat</Template>
 			<Player>1</Player>
 			<Position x="607.36835" z="222.01227"/>
 			<Orientation y="2.55221"/>
 			<Actor seed="29853"/>
 		</Entity>
 		<Entity uid="7450">
-			<Template>structures/space_habitat</Template>
+			<Template>structures/space/habitat</Template>
 			<Player>1</Player>
 			<Position x="625.56177" z="241.66654"/>
 			<Orientation y="-2.31164"/>
 			<Actor seed="9749"/>
 		</Entity>
 		<Entity uid="7451">
-			<Template>structures/space_dish</Template>
+			<Template>structures/space/dish</Template>
 			<Player>1</Player>
 			<Position x="590.29365" z="251.24112"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49842"/>
 		</Entity>
 		<Entity uid="7452">
-			<Template>structures/space_solar_panel</Template>
+			<Template>structures/space/solar_panel</Template>
 			<Player>1</Player>
 			<Position x="629.23804" z="258.87046"/>
 			<Orientation y="-1.55065"/>
 			<Actor seed="27020"/>
 		</Entity>
 		<Entity uid="7453">
-			<Template>structures/space_solar_panel</Template>
+			<Template>structures/space/solar_panel</Template>
 			<Player>1</Player>
 			<Position x="634.21381" z="265.22757"/>
 			<Orientation y="-1.55257"/>
 			<Actor seed="8292"/>
 		</Entity>
 		<Entity uid="7454">
-			<Template>structures/space_solar_panel</Template>
+			<Template>structures/space/solar_panel</Template>
 			<Player>1</Player>
 			<Position x="637.51996" z="253.29065"/>
 			<Orientation y="-1.57009"/>
 			<Actor seed="32723"/>
 		</Entity>
 		<Entity uid="7455">
-			<Template>structures/space_solar_panel</Template>
+			<Template>structures/space/solar_panel</Template>
 			<Player>1</Player>
 			<Position x="596.82483" z="187.01148"/>
 			<Orientation y="-1.32557"/>
 			<Actor seed="26693"/>
 		</Entity>
 		<Entity uid="7456">
-			<Template>structures/space_solar_panel</Template>
+			<Template>structures/space/solar_panel</Template>
 			<Player>1</Player>
 			<Position x="599.46808" z="192.0897"/>
 			<Orientation y="-1.30402"/>
 			<Actor seed="2093"/>
 		</Entity>
 		<Entity uid="7457">
-			<Template>structures/space_solar_panel</Template>
+			<Template>structures/space/solar_panel</Template>
 			<Player>1</Player>
 			<Position x="603.19361" z="197.66095"/>
 			<Orientation y="-1.2956"/>
 			<Actor seed="51317"/>
 		</Entity>
 		<Entity uid="7458">
-			<Template>structures/space_solar_panel</Template>
+			<Template>structures/space/solar_panel</Template>
 			<Player>1</Player>
 			<Position x="582.5771" z="246.17148"/>
 			<Orientation y="-1.41887"/>
 			<Actor seed="53694"/>
 		</Entity>
 		<Entity uid="7459">
-			<Template>structures/space_solar_panel</Template>
+			<Template>structures/space/solar_panel</Template>
 			<Player>1</Player>
 			<Position x="576.27222" z="241.27244"/>
 			<Orientation y="-1.39316"/>
 			<Actor seed="2560"/>
 		</Entity>
 		<Entity uid="7460">
-			<Template>structures/space_solar_panel</Template>
+			<Template>structures/space/solar_panel</Template>
 			<Player>1</Player>
 			<Position x="581.97675" z="233.66135"/>
 			<Orientation y="-1.36725"/>
 			<Actor seed="59364"/>
 		</Entity>
 		<Entity uid="7461">
-			<Template>structures/space_orion</Template>
+			<Template>structures/space/orion</Template>
 			<Player>1</Player>
 			<Position x="610.85822" z="268.96976"/>
 			<Orientation y="-1.54784"/>
 			<Actor seed="40988"/>
 		</Entity>
 		<Entity uid="7462">
-			<Template>units/space_curiosity</Template>
+			<Template>units/space/curiosity</Template>
 			<Player>1</Player>
 			<Position x="592.85261" z="226.96879"/>
 			<Orientation y="-2.1719"/>
 			<Actor seed="2291"/>
 		</Entity>
 		<Entity uid="7463">
-			<Template>units/space_astronaut</Template>
+			<Template>units/space/astronaut</Template>
 			<Player>1</Player>
 			<Position x="611.48346" z="232.44877"/>
 			<Orientation y="-2.04519"/>
 			<Actor seed="25477"/>
 		</Entity>
 		<Entity uid="7464">
-			<Template>units/space_astronaut</Template>
+			<Template>units/space/astronaut</Template>
 			<Player>1</Player>
 			<Position x="597.21381" z="240.19162"/>
 			<Orientation y="-2.27363"/>
 			<Actor seed="23422"/>
 		</Entity>
 		<Entity uid="7465">
-			<Template>units/space_astronaut</Template>
+			<Template>units/space/astronaut</Template>
 			<Player>1</Player>
 			<Position x="592.9845" z="235.19236"/>
 			<Orientation y="0.47977"/>
 			<Actor seed="4857"/>
 		</Entity>
 		<Entity uid="7466">
-			<Template>units/space_rover</Template>
+			<Template>units/space/rover</Template>
 			<Player>1</Player>
 			<Position x="632.05158" z="226.89475"/>
 			<Orientation y="2.41794"/>

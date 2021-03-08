@@ -2,28 +2,36 @@
 <Entity parent="template_unit">
   <Builder>
     <Entities datatype="tokens">
-      structures/space_orion
+      structures/space/orion
+      structures/space/curiosity_lander
     </Entities>
     <Rate>1.0</Rate>
   </Builder>
   <Cost>
     <Population>0</Population>
+    <BuildTime>1</BuildTime>
+    <Resources>
+      <food>0</food>
+      <energy>0</energy>
+      <ore>0</ore>
+      <funding>0</funding>
+    </Resources>
   </Cost>
   <Identity>
     <Civ>space</Civ>
-    <Icon>units/curiosity.png</Icon>
+    <Icon>units/opportunity.png</Icon>
     <GenericName>Rover</GenericName>
-    <SpecificName>Curiosity</SpecificName>
+    <SpecificName>Opportunity</SpecificName>
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
   <Promotion disable=""/>
   <TrainingRestrictions>
-    <Category>Curiosity</Category>
+    <Category>Opportunity</Category>
   </TrainingRestrictions>
   <VisualActor>
-    <Actor>units/curiosity.xml</Actor>
+    <Actor>units/rover.xml</Actor>
   </VisualActor>
 </Entity>
 
