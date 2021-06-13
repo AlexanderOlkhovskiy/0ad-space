@@ -3,8 +3,7 @@ var g_MainMenuItems = [
 		"caption": translate("Play Story"),
 		"tooltip": translate("Start the story."),
 		"onPress": () => {
-			Engine.SwitchGuiPage("page_gamesetup.xml", {
-				"autostart": true,
+			Engine.SwitchGuiPage("page_autostart.xml", {
 				"mapType": "scenario",
 				"map": "maps/scenarios/mars_mountains"
 			});
@@ -52,13 +51,6 @@ var g_MainMenuItems = [
 					Engine.SwitchGuiPage("page_modmod.xml");
 				}
 			},
-			{
-				"caption": translate("Welcome Screen"),
-				"tooltip": translate("Show the Welcome Screen again. Useful if you hid it by mistake."),
-				"onPress": () => {
-					Engine.PushGuiPage("page_splashscreen.xml");
-				}
-			}
 		]
 	},
 	{

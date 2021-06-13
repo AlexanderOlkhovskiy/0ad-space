@@ -18,5 +18,5 @@
 		<object name="organizationName" type="text" style="MediumTitleText" ghost="true" size="50%-128 36 50%+128 52"/>
 	</object>
 
-	<object type="text" name="productBuild" style="MediumTitleText" ghost="true" size="0 100%-48 256 100%"/>
+	<object type="text" name="productBuild" style="MediumTitleSubText" ghost="true" size="0 100%-48 256 100%"/>
 </object>

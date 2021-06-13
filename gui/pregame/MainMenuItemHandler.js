@@ -100,7 +100,7 @@ class MainMenuItemHandler
 		this.mainMenuButtons.hidden = true;
 
 		let backButton = {
-			"caption": translate("<< Back"),
+			"caption": translate("\u25c0 Back"),
 			"tooltip": translate("Back to Main Menu."),
 			"onPress": () => {
 				this.closeSubmenu();

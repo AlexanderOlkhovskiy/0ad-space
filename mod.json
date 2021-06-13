@@ -2,6 +2,6 @@
 	"name": "space",
 	"version": "0.0.25",
 	"label": "0 A.D. Space Mod",
-	"description": "Adds space-related models and a showcase map",
+	"description": "0 A.D. mod about space and its history.",
 	"dependencies": ["0ad=0.0.25"]
 }
