@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+==========================================
+- CREDITS PAGE -
+==========================================
+-->
+
+<objects>
+	<script directory="gui/common/"/>
+	<script directory="gui/background/"/>
+	<script directory="gui/background/backgrounds/"/>
+	<script directory="gui/credits/"/>
+
+	<object name="creditsPageBackground">
+		<include file="gui/background/backgrounds.xml"/>
+	</object>
+
+	<object name="creditsPage" type="image" style="SpaceSolidPanel" size="10% 172 90% 100%-172" z="50">
+		<object size="16 60 100%-16 100%-60">
+			<object name="creditsText" type="text" text_align="center" scroll_top="true" textcolor="white" scrollbar="true" scrollbar_style="SpaceScrollBar"/>
+		</object>
+
+		<object size="4 0 100% 40">
+			<object type="text" style="SpaceTitleText" size="0 0 100% 100%">
+				<translatableAttribute id="caption">Credits</translatableAttribute>
+			</object>
+		</object>
+
+		<object name="creditsPageBackButton" type="button" style="SpaceGradientButton" size="4 100%-40 566 100%" hotkey="cancel">
+			<action on="Press">
+				Engine.PopGuiPage();
+			</action>
+		</object>
+	</object>
+</objects>

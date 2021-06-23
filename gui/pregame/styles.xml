@@ -3,7 +3,7 @@
 <styles>
 
 	<style name="MainMenuPanel"
-		sprite="MainMenuPanel"
+		sprite="SpaceGradientPanel"
 	/>
 
 	<style name="SubmenuPanel"
@@ -18,17 +18,6 @@
 		ghost="true"
 		font="sans-14"
 		textcolor="white"
-	/>
-
-	<style name="SpaceButton"
-		sprite_over="SpaceButtonOver"
-		buffer_zone="16"
-		font="orbitron-light-18"
-		textcolor="white"
-		textcolor_disabled="210 210 210 160"
-		text_align="left"
-		text_valign="center"
-		sound_pressed="audio/interface/ui/ui_button_click.ogg"
 	/>
 
 	<style name="SpaceTooltipPanel"

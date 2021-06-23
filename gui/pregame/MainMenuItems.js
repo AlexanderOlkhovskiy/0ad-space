@@ -31,13 +31,6 @@ var g_MainMenuItems = [
 				}
 			},
 			{
-				"caption": translate("Hotkeys"),
-				"tooltip": translate("Adjust hotkeys."),
-				"onPress": () => {
-					Engine.PushGuiPage("hotkeys/page_hotkeys.xml");
-				}
-			},
-			{
 				"caption": translate("Language"),
 				"tooltip": translate("Choose the language of the game."),
 				"onPress": () => {
@@ -58,15 +51,15 @@ var g_MainMenuItems = [
 		"tooltip": translate('Open the Atlas Scenario Editor in a new window. You can run this more reliably by starting the game with the command-line argument "-editor".'),
 		"onPress": () => {
 			if (Engine.AtlasIsAvailable())
-				messageBox(
-					400, 200,
+				showSpaceMessageBox(
+					400,
 					translate("Are you sure you want to quit 0 A.D. and open the Scenario Editor?"),
 					translate("Confirmation"),
-					[translate("No"), translate("Yes")],
-					[null, Engine.RestartInAtlas]);
+					[translate("Yes"), translate("No")],
+					[Engine.RestartInAtlas, null]);
 			else
-				messageBox(
-					400, 200,
+				showSpaceMessageBox(
+					400,
 					translate("The scenario editor is not available or failed to load. See the game logs for additional information."),
 					translate("Error"));
 		}
@@ -82,12 +75,12 @@ var g_MainMenuItems = [
 		"caption": translate("Exit"),
 		"tooltip": translate("Exit the game."),
 		"onPress": () => {
-			messageBox(
-				400, 200,
+			showSpaceMessageBox(
+				400,
 				translate("Are you sure you want to quit 0 A.D.?"),
 				translate("Confirmation"),
-				[translate("No"), translate("Yes")],
-				[null, Engine.Exit]);
+				[translate("Yes"), translate("No")],
+				[Engine.Exit, null]);
 		}
 	}
 ];

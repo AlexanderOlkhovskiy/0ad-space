@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <sprites>
-
-	<sprite name="MainMenuPanel">
-		<image texture="pregame/mainmenu/main_menu_background.png"
-			texture_size="0 0 100% 100%"
-			size="0 0 100% 100%"
-		/>
-
-		<!-- left -->
-		<image backcolor="107 128 140"
-			size="0 0 4 100%"
-		/>
-	</sprite>
-
 	<sprite name="pgUserReportBox">
 		<image backcolor="0 0 0 220"
 			size="0 0 100% 100%"
@@ -22,11 +9,4 @@
 			size="0 0 1 100%"
 		/>
 	</sprite>
-
-	<sprite name="SpaceButtonOver">
-		<image texture="pregame/mainmenu/space_button_over.png"
-			size="0 0 100% 100%"
-		/>
-	</sprite>
-
 </sprites>

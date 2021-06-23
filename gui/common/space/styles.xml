@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<styles>
+	<style name="SpaceGradientButton"
+		sprite_over="SpaceGradientButtonOver"
+		buffer_zone="16"
+		font="orbitron-light-18"
+		textcolor="white"
+		textcolor_disabled="210 210 210 160"
+		text_align="left"
+		text_valign="center"
+		sound_pressed="audio/interface/ui/ui_button_click.ogg"
+	/>
+
+	<style name="SpaceGradientTitle"
+		sprite="SpaceWhiteGradient"
+	/>
+
+	<style name="SpaceSolidTitle"
+		sprite="color: 255 255 255 200"
+	/>
+
+	<style name="SpaceGradientTitleText"
+		buffer_zone="16"
+		font="orbitron-light-18"
+		textcolor="107 128 140"
+		text_align="left"
+		text_valign="center"
+	/>
+
+	<style name="SpaceTitleText"
+		buffer_zone="16"
+		font="orbitron-light-18"
+		textcolor="167 189 202"
+		text_align="left"
+		text_valign="center"
+	/>
+
+	<style name="SpaceGradientPanel"
+		sprite="SpaceGradientPanel"
+	/>
+
+	<style name="SpaceSolidPanel"
+		sprite="SpaceSolidPanel"
+	/>
+</styles>

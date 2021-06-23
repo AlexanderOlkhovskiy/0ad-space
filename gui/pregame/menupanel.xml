@@ -4,7 +4,7 @@
 	<object name="mainMenu" type="image" style="MainMenuPanel" size="10% -2 10%+566 100%+2" z="50">
 		<object name="mainMenuButtons" size="4 172 100% 572">
 			<repeat count="10">
-				<object name="mainMenuButton[n]" type="button" style="SpaceButton" tooltip_style="pgToolTip"/>
+				<object name="mainMenuButton[n]" type="button" style="SpaceGradientButton" tooltip_style="pgToolTip"/>
 			</repeat>
 		</object>
 		<include file="gui/pregame/ProjectInformation.xml"/>
@@ -13,7 +13,7 @@
 	<object name="submenu" size="10% -2 10%+566 100%+2" hidden="true" z="50">
 		<object name="submenuButtons" type="image" size="4 172 100% 572" tooltip_style="pgToolTip">
 			<repeat count="30">
-				<object type="button" style="SpaceButton" tooltip_style="pgToolTip"/>
+				<object type="button" style="SpaceGradientButton" tooltip_style="pgToolTip"/>
 			</repeat>
 		</object>
 	</object>

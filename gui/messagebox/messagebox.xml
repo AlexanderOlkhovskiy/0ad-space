@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<objects>
+	<script directory="gui/common/"/>
+	<script directory="gui/background/"/>
+	<script directory="gui/background/backgrounds/"/>
+	<script directory="gui/messagebox/"/>
+
+	<object name="messageBoxBackground">
+		<include file="gui/background/backgrounds.xml"/>
+	</object>
+
+	<object z="50">
+		<object name="messageBoxCancelHotkey" hotkey="cancel" />
+		<object name="messageBoxMain" type="image" style="SpaceSolidPanel">
+			<object name="messageBoxTitleBar" style="SpaceTitleText" type="text" size="4 0 100% 40"/>
+			<object
+				name="messageBoxText"
+				type="text"
+				font="sans-bold-18"
+				text_align="left"
+				textcolor="white"
+			/>
+			<!-- The size of the following buttons is set dynamically in msgbox.js -->
+			<object name="messageBoxButton1" style="SpaceGradientButton" type="button" hidden="true"/>
+			<object name="messageBoxButton2" style="SpaceGradientButton" type="button" hidden="true"/>
+			<object name="messageBoxButton3" style="SpaceGradientButton" type="button" hidden="true"/>
+		</object>
+	</object>
+</objects>

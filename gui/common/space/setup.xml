@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE setup SYSTEM "..\..\gui.dtd">
+
+<setup>
+	<color name="SpaceLineColor">107 128 140</color>
+
+	<scrollbar name="SpaceScrollBar"
+		width = "16"
+		minimum_bar_size = "16"
+		maximum_bar_size = "16"
+		show_edge_buttons = "false"
+		sprite_back_vertical = "SpaceScrollBack"
+		sprite_bar_vertical = "SpaceScrollBar"
+	/>
+</setup>

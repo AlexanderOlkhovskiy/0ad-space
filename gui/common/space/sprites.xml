@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<sprites>
+	<sprite name="SpaceGradientButtonOver">
+		<image texture="global/space/space_button_over.png"
+			size="0 0 100% 100%"
+		/>
+	</sprite>
+
+	<sprite name="SpaceWhiteGradient">
+		<image texture="global/space/space_white_gradient.png"
+			size="0 0 100% 100%"
+		/>
+	</sprite>
+
+	<sprite name="SpaceGradientPanel">
+		<image texture="pregame/mainmenu/main_menu_background.png"
+			texture_size="0 0 100% 100%"
+			size="0 0 100% 100%"
+		/>
+
+		<!-- left -->
+		<image backcolor="SpaceLineColor"
+			size="0 0 4 100%"
+		/>
+	</sprite>
+
+	<sprite name="SpaceSolidPanel">
+		<image backcolor="10 30 42 150" size="0 0 100% 100%"
+		/>
+
+		<!-- left -->
+		<image backcolor="SpaceLineColor"
+			size="0 0 4 100%"
+		/>
+	</sprite>
+
+	<sprite name = "SpaceScrollBack">
+		<image backcolor="255 255 255"
+			size="50%-1 16 50%+1 100%-16"
+		/>
+		<image texture = "global/space/scrollback.png"
+			real_texture_placement = "0 0 32 32"
+			size = "0 4 100% 32"
+		/>
+		<image texture = "global/space/scrollback.png"
+			real_texture_placement = "0 0 32 32"
+			size = "0 100%-32 100% 100%-4"
+		/>
+	</sprite>
+	<sprite name = "SpaceScrollBar">
+		<image texture = "global/space/scrollbar.png"
+			real_texture_placement = "0 0 32 32"
+			size = "0 0 100% 100%"
+		/>
+	</sprite>
+</sprites>
