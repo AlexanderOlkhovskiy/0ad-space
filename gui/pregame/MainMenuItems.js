@@ -5,7 +5,10 @@ var g_MainMenuItems = [
 		"onPress": () => {
 			Engine.SwitchGuiPage("page_autostart.xml", {
 				"mapType": "scenario",
-				"map": "maps/scenarios/mars_mountains"
+				"map": "maps/scenarios/mars_mountains",
+				"settings": {
+					"CheatsEnabled": true
+				}
 			});
 		}
 	},

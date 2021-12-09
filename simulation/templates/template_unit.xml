@@ -50,6 +50,7 @@
     <DisableBlockPathfinding>false</DisableBlockPathfinding>
   </Obstruction>
   <OverlayRenderer/>
+  <Ownership/>
   <Position>
     <Altitude>0</Altitude>
     <Anchor>pitch</Anchor>

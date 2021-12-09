@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity>
-  <Armour>
-    <Hack>1</Hack>
-    <Pierce>1</Pierce>
-    <Crush>1</Crush>
-    <Foundation>
-      <Hack>1</Hack>
-      <Pierce>1</Pierce>
-      <Crush>1</Crush>
-    </Foundation>
-  </Armour>
   <BuildingAI>
     <DefaultArrowCount>0</DefaultArrowCount>
     <GarrisonArrowMultiplier>0</GarrisonArrowMultiplier>
@@ -26,7 +16,6 @@
   </Capturable>
   <Cost>
     <Population>0</Population>
-    <PopulationBonus>0</PopulationBonus>
     <BuildTime>10</BuildTime>
     <Resources>
       <food>0</food>
@@ -132,6 +121,7 @@
   </StatusBars>
   <TerritoryDecay>
     <DecayRate>20</DecayRate>
+    <Territory>neutral enemy</Territory>
   </TerritoryDecay>
   <Visibility>
     <RetainInFog>true</RetainInFog>

@@ -1,7 +1,7 @@
 {
 	"name": "space",
-	"version": "0.0.25",
+	"version": "0.0.26",
 	"label": "0 A.D. Space Mod",
 	"description": "0 A.D. mod about space and its history.",
-	"dependencies": ["0ad=0.0.25"]
+	"dependencies": ["0ad=0.0.26"]
 }

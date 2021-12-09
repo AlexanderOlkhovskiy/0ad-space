@@ -59,7 +59,7 @@
     }
   ],
   "Preview": "mars_mountains.png",
-  "RevealMap": false,
+  "RevealMap": true,
   "VictoryConditions": []
 }
 ]]></ScriptSettings>
